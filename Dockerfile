@@ -5,4 +5,4 @@ WORKDIR /workspace
 VOLUME /workspace
 EXPOSE 8448
 
-CMD ["ungit"]
+CMD ["ungit", "--logLevel=debug"]
