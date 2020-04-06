@@ -1,4 +1,4 @@
-FROM node:6.10
+FROM node:lts-slim
 
 RUN npm install -g ungit
 WORKDIR /workspace
